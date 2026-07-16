@@ -1,0 +1,15 @@
+Entidad: Causa
+- id
+- titulo
+- descripcion
+- fecha
+
+La entidad Causa sirve para almacenar la información principal de cada petición creada por la comunidad.
+
+Entidad: Apoyo
+- id
+- causa_id
+- nombre
+- fecha
+
+La entidad Apoyo sirve para registrar las personas que apoyan una causa específica. El campo causa_id relaciona el apoyo con la causa correspondiente.
